@@ -10,15 +10,35 @@
 </head>
 
 <body>
+<script>
+    // var divs = document.getElementsByTagName('div');
+    // var divs = document.getElementsByClassName('field');
+    setTimeout(() => {
 
+        var btn = document.getElementById('form-submit');
+        if (btn) {
+
+            console.log(btn.innerText);
+            btn.innerText = 'גולן 🫣'
+            btn.addEventListener('click', (e) => {
+                console.log(e);
+            })
+            btn.addEventListener('dblclick', (e) => {
+                console.log('hover!',e);
+            })
+        }
+    }, 4000)
+
+
+</script>
 <h1>Yonatan Altman</h1>
-
+<span class="field"></span>
 <div class="description">
     <img src="https://flagcdn.com/w320/il.png" alt="name">
     <p>The flag of Israel has a white field with a blue hexagram — the Magen David — centered between two equal
         horizontal blue bands situated near the top and bottom edges of the field.</p>
 </div>
-<form action="">
+<form>
     <h2>Contact us</h2>
     <div class="wrapper">
 
@@ -35,26 +55,14 @@
             <div class="label">Address</div>
             <input type="text">
         </div>
-        <div class="field">
 
-        </div>
-        <div class="field">
-
-        </div>
-        <div class="field">
-
-        </div>
-        <div class="field">
-
-        </div>
-        <div class="field">
-
-        </div>
-        <div class="field">
-        </div>
 
     </div>
-
 </form>
+<button id="form-submit">Go</button>
+
+
 </body>
+
+
 </html>

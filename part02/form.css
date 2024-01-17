@@ -1,11 +1,14 @@
 form {
     background: rgba(206, 32, 32, 0.46);
 }
-
+form{
+}
 form .wrapper {
     display: flex;
     flex-wrap: wrap;
-    height: 600px;
+    height: 400px;
+    max-height: 40vh;
+    overflow: auto;
     column-gap: 50px;
 }
 
@@ -19,15 +22,18 @@ form .field {
     padding-left: 5px;
 
     border-radius: 10px 30px 10px 10px;
-    margin: 10px 150px 10px 10px;
+    margin: 10px 15px 10px 10px;
 }
+
 form .field:hover {
     cursor: pointer;
 }
-input{
+
+input {
     background: transparent;
-    border:none;
+    border: none;
 }
+
 input:focus {
     outline: none;
 }
