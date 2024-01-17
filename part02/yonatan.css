@@ -1,0 +1,17 @@
+h1 {
+    background: blue;
+    color: white;
+    font-weight: bolder;
+}
+
+.description {
+    outline: solid red 2px;
+    height: 140px;
+    overflow: auto;
+    margin: 30px;
+    display: flex;
+}
+
+.description img {
+    height: 100px;
+}
