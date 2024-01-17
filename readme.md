@@ -37,7 +37,14 @@ We are going to learn about `HTML`, `CSS` and `javascript`
 - [ ]  HTML task:
 
 
+flex:
 https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+
+colors:
+https://colorhunt.co/
+
+events:
+https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener
 
 
 ## Used By
