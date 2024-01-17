@@ -22,9 +22,22 @@ function someNumber(a, b) {
     return a * b;
 }
 
-for (let i = 0; i < 100; i++) {
-    console.log(i);
+function printNumbers() {
+
+
+    var ul = document.createElement('ul');
+    document.body.appendChild(ul);
+    for (let i = 0; i < 100; i++) {
+        var li = document.createElement('div');
+        li.innerText = 'num: ' + i;
+        ul.appendChild(li);
+    }
+
+
 }
+
+document.getElementById('print')
+    .addEventListener('click', printNumbers);
 
 // add button with id
 // add event listener click
